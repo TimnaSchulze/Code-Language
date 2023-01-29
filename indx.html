@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>How Do I Choose Which Programming Language to Learn?</title>
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>How Do I Choose Which Programming Language to Learn?</h1>
+          <p>You want to study programming, but there are so many choices! How do you decide which language to study? Use this quiz to help narrow down your options!</p>
+          <form>
+            <div class="form-group">
+              <div class="history">
+                <label for="history">What was your favorite job?</label>
+                <div>
+                  <input type="radio" name="history" value="customerService"> Retail, Food Service, Working with Customers
+                </div>
+                <div>
+                  <input type="radio" name="history" value="deskJob"> Data Entry or Business Work
+                </div>
+                <div>
+                  <input type="radio" name="history" value="management"> Management for Organizations or Projects
+                </div>
+              </div>
+              <div class="schedule">
+                <label for="schedule">What is your favorite work schedule?</label>
+                <div>
+                  <input type="radio" name="schedule" value="nineToFive"> 9-5: Clock in and clock out.
+                </div>
+                <div>
+                  <input type="radio" name="schedule" value="asNeeded"> Dive into a project and work until it's done. Hours Shmours!
+                </div>
+                <div>
+                  <input type="radio" name="schedule" value="collaboration"> Share your schedule with coworkers to complete tasks.
+                </div>
+              </div>
+              <div class="math">
+                <label for="math">What is your favorite type of math?</label>
+                <div>
+                  <input type="radio" name="math" value="algebra"> Algebra: I love equations!
+                </div>
+                <div>
+                  <input type="radio" name="math" value="geometry"> Geometry: Applying theories is fascinating!
+                </div>
+                <div>
+                  <input type="radio" name="math" value="calculus"> Calculus: The more complex the better!
+                </div>
+              </div>
+              <div class="skills">
+                <label for="skills">How savvy are you with your computer?</label>
+                <div>
+                  <input type="radio" name="skills" value="newbie"> I use my computer for e-mails and social media. I like to look things up on Google. 
+                </div>
+                <div>
+                  <input type="radio" name="skills" value="familiar"> I've been using computers all my life. I personalize my computer to fit me.
+                </div>
+                <div>
+                  <input type="radio" name="skills" value="programmer"> I have some programming knowledge. I programmed my TI-85 when I was a kid.
+                </div>
+              </div>
+              <div class="personality">
+                <label for="personality">What is your personality?</label>
+                <div>
+                  <input type="radio" name="personality" value="introvert"> Introverted: I like to work alone.
+                </div>
+                <div>
+                  <input type="radio" name="personality" value="extravert"> Extroverted: I like to communicate and collaborate about everything!
+                </div>
+                <div>
+                  <input type="radio" name="personality" value="both"> Both: I like communicating, but I like to focus on my own too.
+                </div>
+              </div>
+            </div>
+              <button type="button" class="btn btn-primary" onclick="Language()">Submit</button>
+            <div id="result"></div>
+              <button id="tryAgain" class="btn btn-secondary">Try Again</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>    
+  </body>
+</html>

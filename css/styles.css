@@ -1,0 +1,147 @@
+body {
+  font-family: 'Helvetica';
+  font-size: 16px;
+  line-height: 1.5;
+  color: black;
+  background: #274957;
+  text-align: center;
+}
+
+h1 {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: solid 2px #000;
+  box-shadow: 10px 10px 5px #1b1b1b;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
+}
+
+p {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: solid 2px #000;
+  box-shadow: 10px 10px 5px #1b1b1b;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col {
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0 15px;
+}
+
+.history {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: solid 2px #000;
+  box-shadow: 10px 10px 5px #1b1b1b;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
+}
+
+.schedule {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: solid 2px #000;
+  box-shadow: 10px 10px 5px #1b1b1b;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
+}
+
+.math {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: solid 2px #000;
+  box-shadow: 10px 10px 5px #1b1b1b;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
+}
+
+.skills {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: solid 2px #000;
+  box-shadow: 10px 10px 5px #1b1b1b;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
+}
+
+.personality {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: solid 2px #000;
+  box-shadow: 10px 10px 5px #1b1b1b;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
+}
+
+#result {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: solid 2px #000;
+  box-shadow: 10px 10px 5px #1b1b1b;
+  box-sizing: border-box;
+  background-color: #fff;
+  color: #000;
+}
+
+button {
+  background-color: #dcdddb;
+  border: none;
+  color: rgb(15, 15, 15);
+  box-shadow: 10px 10px 5px #1b1b1b;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  border-radius: 12px;
+}
