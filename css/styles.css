@@ -16,7 +16,7 @@ h1 {
   border: solid 2px #000;
   box-shadow: 10px 10px 5px #1b1b1b;
   box-sizing: border-box;
-  background-color: #fff;
+  background-color: rgb(224, 200, 133);
   color: #000;
 }
 
@@ -29,7 +29,7 @@ p {
   border: solid 2px #000;
   box-shadow: 10px 10px 5px #1b1b1b;
   box-sizing: border-box;
-  background-color: #fff;
+  background-color: rgb(228, 219, 195);
   color: #000;
 }
 
@@ -126,12 +126,12 @@ p {
   border: solid 2px #000;
   box-shadow: 10px 10px 5px #1b1b1b;
   box-sizing: border-box;
-  background-color: #fff;
+  background-color: rgb(228, 219, 195);
   color: #000;
 }
 
 button {
-  background-color: #dcdddb;
+  background-color: rgb(228, 219, 195);
   border: none;
   color: rgb(15, 15, 15);
   box-shadow: 10px 10px 5px #1b1b1b;
