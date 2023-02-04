@@ -6,7 +6,7 @@ body {
   font-size: 18px;
   line-height: 1;
   color: black;
-  background: #274957;
+  background: #866405;
   text-align: center;
 }
 
@@ -118,7 +118,7 @@ p {
   color: #000;
 }
 
-.submit {
+#submit {
   width: 60%;
   margin: 0 auto;
   margin-top: 10px;

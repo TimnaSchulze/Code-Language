@@ -11,7 +11,7 @@
       <h1>How Do I Choose Which Programming Language to Learn?</h1>
       <p>You want to study programming, but there are so many choices! How do you decide which language to study? Use this quiz to help narrow down your options!</p>
       
-      <form>
+      <form id="language">
         <div class="history">
           <label for="history"><strong>What was your favorite job?</strong></label>
           <div>
@@ -72,17 +72,18 @@
             <input type="radio" name="personality" value="both"> Both: I like communicating, but I like to focus on my own too.
           </div>
         </div>
-        <button id="submit" class="button" onclick="language()">Submit</button>
-      
 
-        </div>
-        <div id="submit" class="hidden">
+          <button type="button" class="button" onclick="language()">Submit</button>
+
+        <div id="submit">
           <h2>Your Coding Language:</h2>
           <p>Based on your answers, you should study <span id="language">_______</span>.</p>
         </div>
-      </form>
+     
 
-      <button id="button" class="button">Try Again</button>
+      <button id="tryAgain" class="button">Try Again</button>
+
+      </form>
     </div>
   </div>    
 </body>
