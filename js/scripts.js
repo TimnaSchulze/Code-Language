@@ -1,9 +1,11 @@
+function results() {
+  document.getElementById("results").setAttribute("class,","hidden");
+}
+
 form.onload = function() {
-  const form = document.querySelector("form");
+  let form = document.querySelector("form");
   form.onsubmit = function(event) {
-event.preventDefault();
-  };
-};
+  event.preventDefault();
 
 function language() {
   let history = document.querySelector("input[name='history']:checked").value;
@@ -23,12 +25,13 @@ function language() {
       language = "C";
   }
 
-  document.getElementById("submit").innerHTML = "You should start with " + language + "!";
+  
 }
 
 document.getElementById("tryAgain").addEventListener("click", function(){
   let form = document.querySelector("form");
   form.reset();
-
-  document.getElementById("result").innerHTML = "";
 });
+
+};
+};
