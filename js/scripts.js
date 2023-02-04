@@ -22,12 +22,12 @@ function language() {
   } else {
       language = "C";
   }
-  document.getElementById("submit").innerHTML = "Based on your answers, you should study" + language + " .";
+  document.getElementById("submit").innerHTML = "Based on your answers, you should study " + language + " .";
 }
 
 document.getElementById("tryAgain").addEventListener("click", function() {
   let form = document.querySelector("form");
   form.reset();
 
-  document.getElementById("submit").removeAttribute("class,","hidden");
+  document.getElementById("submit").removeAttribute("class","hidden");
 });
