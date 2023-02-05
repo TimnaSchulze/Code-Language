@@ -5,6 +5,8 @@ form.onload = function() {
   };
 };
 
+document.getElementById("submit").addAttribute("class","hidden");
+
 function language() {
   let history = document.querySelector("input[name='history']:checked").value;
   let schedule = document.querySelector("input[name='schedule']:checked").value;
@@ -23,11 +25,11 @@ function language() {
       language = "C";
   }
   document.getElementById("submit").innerHTML = "Based on your answers, you should study " + language + " .";
+
+  document.getElementById("submit").removeAttribute("class","hidden");
 }
 
 document.getElementById("tryAgain").addEventListener("click", function() {
   let form = document.querySelector("form");
   form.reset();
-
-  document.getElementById("submit").removeAttribute("class","hidden");
 });
