@@ -25,7 +25,7 @@ _This webpage uses JavaScript Forms to input answers to questions about the expe
 
 ## Known Bugs
 
-* _I am not getting a result. This form isn't working yet._
+* _The class "hidden" is not working._
 
 ## License
 
